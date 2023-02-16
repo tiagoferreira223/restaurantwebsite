@@ -60,7 +60,7 @@ function scrollTop(){
 window.addEventListener('scroll', scrollTop)
 
 /*==================== DARK LIGHT THEME ====================*/ 
-const themeButton = document.getElementById('theme-button')
+/*const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'bx-sun'
 
@@ -88,6 +88,7 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+*/
 
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
