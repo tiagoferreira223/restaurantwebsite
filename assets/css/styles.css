@@ -162,8 +162,9 @@ img{
 /*========== Logo ==========*/
 
 .logoMenu{
-  width: 70px;
-  height: 60px;
+  width: 80px;
+  height: 70px;
+  
 }
 
 /*========== NAV ==========*/
@@ -189,6 +190,11 @@ img{
     border-radius: 0 0 1rem 1rem;
     z-index: var(--z-fixed);
   }
+  .logoMenu{
+    width: 58px;
+    height: 48px;
+  }
+
 }
 
 .nav__item{
